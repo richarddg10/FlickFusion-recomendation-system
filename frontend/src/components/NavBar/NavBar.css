@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.navbar-bg {
+    background-color: #15121a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 0px 88px;
+    height: 100%;
+    position: fixed;
+}
+
+.logo-2-img {
+    width: 96px;
+    margin-top: 73px;
+}
+
+.btns-div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.navbar-bg button {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter';
+    font-size: 23px;
+    font-weight: 400;
+    color: #959199;
+    cursor: pointer;
+}
+
+.navbar-bg button:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-bg button img {
+    width: 21px;
+}
